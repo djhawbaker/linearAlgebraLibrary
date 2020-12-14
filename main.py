@@ -30,3 +30,11 @@ if __name__ == '__main__':
     print("angle 2: ", al.dotAngle([7.35, 0.221, 5.188], [2.751, 8.259, 3.985]))
 
 
+    print("Parallel 1: ", al.isParallel([-7.579, -7.88], [22.737, 23.64]))
+    print("Parallel 2: ", al.isParallel([-2.029, 9.97, 4.172], [-9.231, -6.639, -7.245]))
+    print("Parallel 3: ", al.isParallel([-2.328, -7.284, -1.214], [-1.821, 1.072, -2.94]))
+    
+    print("Orthogonal 1: ", al.isOrthogonal([-7.579, -7.88], [22.737, 23.64]))
+    print("Orthogonal 2: ", al.isOrthogonal([-2.029, 9.97, 4.172], [-9.231, -6.639, -7.245]))
+    print("Orthogonal 3: ", al.isOrthogonal([-2.328, -7.284, -1.214], [-1.821, 1.072, -2.94]))
+
